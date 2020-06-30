@@ -1,0 +1,115 @@
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+hr {
+    width: 100px;
+    border: 2px solid #212529;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Header */
+
+#header {
+    height: 400px;
+}
+
+#header img {
+    width: 200px;
+    border: 4px solid #d9ffcc;
+    transition: 1s;
+}
+
+#header a {
+    transition: 2s;
+}
+
+#header img:hover {
+    transform: rotate(180deg) rotateX(180deg) rotateY(180deg);
+}
+
+#header a:hover {
+    transform: scale(1.5, 2);
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #f40083;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github {
+    background: whitesmoke;
+    color: black;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+/*END Header */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~About */
+
+#about {
+    height: 500px;
+}
+
+#about .tebal {
+    font-weight: normal;
+}
+
+#about .tebal:hover {
+    font-weight: bold;
+}
+
+#about .deskripsi {
+    font-size: larger;
+}
+
+
+/* END About */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer */
+
+#footer {
+    background-color: #d9ffcc;
+}
+
+#footer a {
+    width: 100px;
+    padding: 5px;
+}
+
+#footer p .fa-heart {
+    color: red;
+}
+
+
+/* END Footer */
